@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+# Puedes añadir más patrones si lo necesitas
