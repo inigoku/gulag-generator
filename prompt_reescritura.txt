@@ -1,0 +1,3 @@
+Reescribe el poema manteniendo el estilo y el tema,
+pero corrigiendo estos problemas: [lista].
+No repitas versos del poema original.
