@@ -109,4 +109,5 @@ Poema original:
 ACABADO = """
 Pule el poema final para asegurar que cumple con el estilo, tema y restricciones indicadas.
 No des ninguna explicación, solo devuelve el poema final. Tampoco quiero el thinking process o pasos intermedios.
+Elimina de la salida el campo <think>, incluyendo el tag y su contenido.
 """
