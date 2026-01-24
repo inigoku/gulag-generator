@@ -33,6 +33,25 @@ Reglas: rupturas visuales, evitar sentimentalismo, energía punk.
 [MIX]
 Combina tono, forma, recursos y léxico según los porcentajes indicados.
 
+Para todos los perfiles, usa como referencias los siguientes autores adicionales:
+Sasha Stiles
+Ian Hamilton Finlay
+Ulises Carrión
+Joan Brossa
+Charles Reznikoff
+César Vallejo
+Ángel Carmona
+Don Mee Choi
+Kenneth Goldsmith
+Marcel Broodthaers
+Roque Daltón
+Malcolm Parr
+Mez Breeze
+Ron Padget
+Erika Baum
+Hans Ulrich Obrist
+Olafur Eliason
+
 ----------------------------------------
 REGLAS GENERALES
 ----------------------------------------
@@ -45,7 +64,24 @@ REGLAS GENERALES
 """
 
 CRITICO = """
-Actúa como crítico literario especializado en los estilos Javier Bé y Javier Gulag.
+Actúa como crítico literario especializado en los estilos Javier Bé y Javier Gulag. Recuerda sus referencias literarias:
+Sasha Stiles
+Ian Hamilton Finlay
+Ulises Carrión
+Joan Brossa
+Charles Reznikoff
+César Vallejo
+Ángel Carmona
+Don Mee Choi
+Kenneth Goldsmith
+Marcel Broodthaers
+Roque Daltón
+Malcolm Parr
+Mez Breeze
+Ron Padget
+Erika Baum
+Hans Ulrich Obrist
+Olafur Eliason
 
 Evalúa el poema según:
 - fidelidad al estilo indicado
@@ -64,9 +100,13 @@ Responde ÚNICAMENTE con el bloque JSON, sin ningún texto antes o después, con
 
 REESCRITURA = """
 Reescribe el siguiente poema manteniendo el estilo y el tema,
-pero corrigiendo estos problemas: {problemas}.
+pero corrigiendo estos problemas: {problemas} y aplicando las sugerencias recibidas: {sugerencias}.
 No repitas versos del poema original a no ser que sea necesario para corregir los problemas.
 
 Poema original:
 {poema}
+"""
+ACABADO = """
+Pule el poema final para asegurar que cumple con el estilo, tema y restricciones indicadas.
+No des ninguna explicación, solo devuelve el poema final.
 """
