@@ -4,7 +4,7 @@ from agente import agente_generador
 def main():
     st.set_page_config(page_title="Generador de Poesía", page_icon="✒️", layout="centered")
 
-    st.title("Generador de Poesía: Javier")
+    st.title("Generador de Poesía: NOLDO")
     st.markdown("Configura los parámetros y genera poemas con los estilos **Bé**, **Gulag** o una **Mezcla**.")
 
     # --- Configuración de Parámetros ---
